@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="MyStyles.css" />
+
+ <script type="text/javascript" src="MyStyles.css"></script>
+
+
+<title>Demo HTML5</title>
+</head>
+<body>
+
+<form id="myForm">
+<div class="container">
+    <div class="left">
+    <img src="/D:\HTML5\Form.png" alt="Form" /><br/>    
+    </div>    
+    <div class="right">
+	<label for="name-data">Name</label> <br/>
+	<input type="search" id="name-data" required="required" placeholder="First and Last name" /><br />
+	<label for="email-data">Email</label> <br/>
+	<input type="email" id="email-data" required="required" /> <br />
+	<label for="username-data">Create a username</label> <br/>
+	<input type="text" id="username-data" placeholder="username" /> <br />
+	<label for="password-data">Create a password</label> <br/>
+	<input type="password" id="password-data" required="required"/><br />
+	<label for="confirm-password">Confirm your password</label> <br/>
+	<input type="password" id="confirm-password" required="required"/> <br />	
+	
+	
+                 <label>Birthday</label>
+                  <label class="month"> 
+                  <select class="select-style" name="BirthMonth">
+                  <option value="">Month</option>
+                  <option  value="01">January</option>
+                  <option value="02">February</option>
+                  <option value="03" >March</option>
+                  <option value="04">April</option>
+                  <option value="05">May</option>
+                  <option value="06">June</option>
+                  <option value="07">July</option>
+                  <option value="08">August</option>
+                  <option value="09">September</option>
+                  <option value="10">October</option>
+                  <option value="11">November</option>
+                  <option value="12" >December</option>
+                  </label>
+                 </select>    
+                <label>Day<input class="birthday" maxlength="2" style="width: 100px" name="BirthDay"  placeholder="Day" required=""></label>
+                <label>Year <input class="birthyear" maxlength="4" style="width: 100px" name="BirthYear" placeholder="Year" required=""></label>
+              
+	<br/>
+	<input type="text" list="myDataList" placeholder="i am." />
+	<datalist id="myDataList">
+		<option label="Mr." value="Mr."> </option>
+		<option label="Mrs." value="Mrs."> </option>
+		<option label="Ms." value="Ms."> </option>
+	</datalist>	
+	<br/>	
+	<label for="tel-data">Mobile phone</label><br/>
+	<input type="tel" id="tel-data" required="required" placeholder="phone number" />
+	<br/><br/>
+	<input type="submit" value="Sign me up!" /><br/>
+	</div>
+</div>
+
+	
+	</form>
+
+</body>
+</html>
